@@ -1,0 +1,38 @@
+{
+  "name": "kinnosuke-clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "s": "ts-node ./sample.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sunecosuri/kinnosuke-clock.git"
+  },
+  "keywords": [
+    "kinnosuke"
+  ],
+  "author": "sunecosuri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunecosuri/kinnosuke-clock/issues"
+  },
+  "homepage": "https://github.com/sunecosuri/kinnosuke-clock#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "ts-node": "^6.0.5",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "@types/koa": "^2.0.45",
+    "@types/koa-route": "^3.2.3",
+    "@types/puppeteer": "^1.0.0",
+    "koa": "^2.5.1",
+    "koa-route": "^3.2.0",
+    "puppeteer": "^1.4.0"
+  }
+}
