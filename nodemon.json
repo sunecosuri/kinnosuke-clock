@@ -1,0 +1,11 @@
+{
+  "verbose": true,
+  "exec": "ts-node ./src/server.ts",
+  "watch": [
+    "src/"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "ts json"
+}
